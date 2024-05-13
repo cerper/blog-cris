@@ -4,14 +4,14 @@ import Link from 'next/link'
 
 export default function NavBar() {
   return (
-    <nav className="w-full px-10 lg:px-24 flex flex-col items-center lg:flex-row justify-between py-4 ">
+    <nav className="w-full bg-base-400 px-10 lg:px-24 flex flex-col items-center lg:flex-row justify-between py-2 ">
       <Link href="/">
         <Image
           src={logo}
           alt="logo de la empresa "
-          height={400}
+          height={300}
           width={200}
-          className="w-[300px] sm:w-[80px]max-h-24 lg:max-h-[150px] py-2 sm:py-4 "
+          className="lg:w-[250px] w-[250px] min-h-24 lg:max-h-[140px] py-2 sm:py-4 "
         />
       </Link>
       <div className=" flex gap-4 justify-center items-center">

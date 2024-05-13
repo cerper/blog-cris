@@ -13,10 +13,14 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: '2rem',
-      screens: {
-        '2xl': '1400px',
-      },
+      padding: '15px',
+    },
+    backgroundImage: {
+      hero: 'url(/portada-cris.jpg)',
+    },
+    fontFamily: {
+      oswald: 'var(--font-oswald)',
+      roboto: 'var(--font-roboto)',
     },
     extend: {
       keyframes: {

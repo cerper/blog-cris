@@ -10,7 +10,7 @@ interface InfoPageProps {
 export default function InfoPage({ blog }: any) {
   const content = blog.content
   return (
-    <div>
+    <div className="text-justify">
       <PortableText value={content} components={myPortableTextComponents} />
     </div>
   )
@@ -23,7 +23,7 @@ const myPortableTextComponents = {
         alt="Blog"
         width={600}
         height={600}
-        className="object-center object-cover flex items-center justify-center rounded-2xl"
+        className="w-full flex items-center justify-center rounded-2xl"
       />
     ),
   },
