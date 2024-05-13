@@ -8,7 +8,7 @@ const Testimonials = () => {
   return (
     <div className="h-full">
       <div className="flex flex-col justify-center gap-8 items-center ">
-        <h2 className="text-purple-400 text-4xl">Testimonios</h2>
+        <h2 className="text-purple-800 text-4xl">Testimonios</h2>
         <TestimonialSlide />
       </div>
     </div>
